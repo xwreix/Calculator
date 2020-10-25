@@ -1,7 +1,7 @@
 package com.company;
-//halo
-public class NotNumberException extends Exception {
-    public NotNumberException(String message) {
+
+public class MyException extends Exception {
+    public MyException(String message) {
         super(message);
     }
 
